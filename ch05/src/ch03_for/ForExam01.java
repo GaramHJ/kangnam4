@@ -4,7 +4,7 @@ public class ForExam01 {
 
 	public static void main(String[] args) {
 		
-		//¸í·É¹®ÀÇ ¼ö = 4°³
+		//ëª…ë ¹ë¬¸ì˜ ê°œìˆ˜ = 4
 		for(int i=1; i<=100; i++) {
 			System.out.println(i);
 		}

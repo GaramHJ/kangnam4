@@ -16,7 +16,7 @@ public static void main(String[] args) {
 	case 6: grade ="D"; break;
 	default: grade ="F"; break;
 	}
-		System.out.printf("¼ºÀûÀº %dÀÌ°í ÇĞÁ¡Àº %s", score,grade);
+		System.out.printf("ì„±ì ì€ %dì´ê³  í•™ì ì€ %s", score,grade);
 
 	}
 

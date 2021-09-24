@@ -4,10 +4,10 @@ public class Operator01Exam {
 
 	public static void main(String[] args) {
 		
-		//´ÜÇ× ¿¬»êÀÚ
-		int x = -100; //-´Â À½¼ö
+		//ë‹¨í•­ ì—°ì‚°ì
+		int x = -100; //-ëŠ” ìŒìˆ˜
 		System.out.println(x);
-		int result = +x; //didtn +(-) -> -
+		int result = +x; //ì–‘ìˆ˜ +(-) -> -
 		System.out.println(result);
 		int result2 = -x; //-(-) -> +
 		System.out.println(result2);

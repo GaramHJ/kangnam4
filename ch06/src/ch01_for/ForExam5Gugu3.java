@@ -9,7 +9,7 @@ public class ForExam5Gugu3 {
 			for(int j=1; j<=9; j++) {
 				System.out.print(j+"*"+i+"="+i*j+"\t");
 			}
-			System.out.println();//ÇÑ ÁÙ ¹ØÀ¸·Î ³»¸®´Â ¸í·É¹®;
+			System.out.println();//í•œ ì¤„ ë°‘ìœ¼ë¡œ ë‚´ë¦¬ëŠ” ëª…ë ¹ë¬¸;
 		}
 		System.out.println("i="+i);
 

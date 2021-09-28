@@ -9,7 +9,7 @@ public class Dowhile3 {
 		Scanner scanner = new Scanner(System.in);
 		int num=0, i=1;
 		do {
-			System.out.println("º¸°í½ÍÀº ±¸±¸´Ü ¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
+			System.out.println("ë³´ê³ ì‹¶ì€ êµ¬êµ¬ë‹¨ ìˆ«ìë¥¼ ì…ë ¥í•˜ì„¸ìš”.");
 			num = scanner.nextInt();
 			if(num<=9&&num>=2) {
 				do {
@@ -17,8 +17,7 @@ public class Dowhile3 {
 					i++;
 				}while(i<=9);
 			}
-		}while(num>9 || num<2); //ºí·°À» ¹ş¾î³ª´Â Á¶°Ç
-
+		}while(num>9 || num<2); //ë¸”ëŸ­ì„ ë²—ì–´ë‚˜ëŠ” ì¡°ê±´
 	}
 
 }

@@ -6,11 +6,11 @@ public class Break1 {
 		
 		int num=0, sum=0;
 		while(true) {
-			num++;//1¾¿ Áõ°¡
-			sum+=num;//´©ÀûÇØ¼­ ´õÇÏ±â
-			if(num==50) break;//whileºí·°À» ºüÁ®³ª°¡´Â Á¶°Ç break;
+			num++;//1ì”© ì¦ê°€
+			sum+=num;//ëˆ„ì í•´ì„œ ë”í•˜ê¸°
+			if(num==50) break;//whileë¸”ëŸ­ì„ ë¹ ì ¸ë‚˜ê°€ëŠ” ì¡°ê±´ break;
 		}
-		System.out.println("ÇÕ°è :"+sum);
+		System.out.println("í•©ê³„ :"+sum);
 
 	}
 

@@ -5,15 +5,15 @@ public class ForExam6 {
 	public static void main(String[] args) {
 		
 		int sum=0;
-		for(int i=1; i<=10; i++) {//1~10±îÁö ¹Ýº¹
+		for(int i=1; i<=10; i++) {//1~10ê¹Œì§€ ë°˜ë³µ
 			sum += i;
-			System.out.print(i);//´õÇÏ´Â ¼ö Ãâ·Â
+			System.out.print(i);//ë”í•˜ëŠ” ìˆ˜ ì¶œë ¥
 			
-			if(i<=9)//1~9±îÁö´Â '+'Ãâ·Â
+			if(i<=9)//1~9ê¹Œì§€ëŠ” '+'ì¶œë ¥
 				System.out.print("+");
-			else {//i°¡ 10ÀÎ °æ¿ì
-				System.out.print("=");//'=' Ãâ·ÂÇÏ°í
-				System.out.print(sum);//µ¡¼À°á°ú Ãâ·Â
+			else {//iê°€ 10ì¸ ê²½ìš°
+				System.out.print("=");//'=' ì¶œë ¥í•˜ê³ 
+				System.out.print(sum);//ë§ì…ˆê²°ê³¼ ì¶œë ¥
 			}
 		}
 

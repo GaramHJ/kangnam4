@@ -4,14 +4,14 @@ public class Break2 {
 
 	public static void main(String[] args) {
 		
-		//ÀÌÁß ¹İº¹¹®
+		//ì´ì¤‘ ë°˜ë³µë¬¸
 		for(int i=0;i<=9;i++) {
 			System.out.print("i=" + i + "\t");
 			for(int j=0;j<=9;j++) {
 				System.out.print("j="+j+"\t");
-				if(j>3)  break;//¾ÈÂÊ for¹®¸¸ ¹ş¾î³².
+				if(j>3)  break;//ì•ˆìª½ forë¬¸ë§Œ ë²—ì–´ë‚¨.
 			}
-			System.out.println();//ÇÑ ÁÙ ¾Æ·¡·Î ³»¸®±â
+			System.out.println();//í•œ ì¤„ ì•„ë˜ë¡œ ë‚´ë¦¬ê¸°
 		}
 
 	}

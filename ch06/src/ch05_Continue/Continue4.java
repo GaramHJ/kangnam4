@@ -4,15 +4,15 @@ public class Continue4 {
 
 	public static void main(String[] args) {
 		
-		//ÀÌÁß for¹®³»ÀÇ continue;
+		//ì´ì¤‘ forë¬¸ë‚´ì˜ continue;
 	Label: for(int i=0;i<=9;i++) {
 			System.out.print("i="+i+"\t");
 			for(int j=0;j<=9;j++) {
 				System.out.print("j="+j);
-				if(j>2) continue Label;// continue¸¦ °¨½Î´Â °¡Àå °¡±î¿î ºí·°ÀÇ for½ÃÀÛÀ¸·Î ÀÌµ¿.
-				System.out.print("³ªµÎ Ãâ·ÂµÇ³ª\t");
+				if(j>2) continue Label;// continueë¥¼ ê°ì‹¸ëŠ” ê°€ì¥ ê°€ê¹Œìš´ ë¸”ëŸ­ì˜ forì‹œì‘ìœ¼ë¡œ ì´ë™.
+				System.out.print("ë‚˜ë‘ ì¶œë ¥ë˜ë‚˜\t");
 			}
-			System.out.println();//ÇÑÁÙ ¾Æ·¡·Î ³»¸®±â´Â Ãâ·Â ¾ÈµÊ.
+			System.out.println();//í•œì¤„ ì•„ë˜ë¡œ ë‚´ë¦¬ê¸°ëŠ” ì¶œë ¥ ì•ˆë¨.
 		}
 
 	}

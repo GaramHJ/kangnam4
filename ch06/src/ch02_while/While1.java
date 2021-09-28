@@ -5,11 +5,11 @@ public class While1 {
 	public static void main(String[] args) {
 		
 		int i=0;
-		//while(Á¶°Ç){½ÇÇà¹®;}//{}³»¿¡ Áõ/°¨Ã³¸®
+		//while(ì¡°ê±´){ì‹¤í–‰ë¬¸;}//{}ë‚´ì— ì¦/ê°ì²˜ë¦¬
 		while(i<10) {
 			System.out.println("Hello!!");
 			System.out.println(i);
-			i++;//while¹®Àº Á¶°ÇÀÌ false°¡ µÉ ¼ö ÀÖµµ·Ï ÇÏ´Â ¸í·É¹®ÀÌ ºí·° ³»¿¡ Ãß°¡µÇ¾ßÇÔ.
+			i++;//whileë¬¸ì€ ì¡°ê±´ì´ falseê°€ ë  ìˆ˜ ìˆë„ë¡ í•˜ëŠ” ëª…ë ¹ë¬¸ì´ ë¸”ëŸ­ ë‚´ì— ì¶”ê°€ë˜ì•¼í•¨.
 		}
 
 	}

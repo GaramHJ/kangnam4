@@ -8,9 +8,9 @@ public class While2 {
 		while(i<10) {
 			sum+=i;
 		System.out.println(sum+","+i);
-		i++; //Áõ°¡ ·ÎÁ÷À¸·Î ¹«ÇÑ ¹Ýº¹ Á¶°ÇÃ³¸®
+		i++; //ì¦ê°€ ë¡œì§ìœ¼ë¡œ ë¬´í•œ ë°˜ë³µ ì¡°ê±´ì²˜ë¦¬
 		}
-		System.out.println("ÇÕ°è: "+sum+", i= "+i);
+		System.out.println("í•©ê³„: "+sum+", i= "+i);
 	}
 
 }

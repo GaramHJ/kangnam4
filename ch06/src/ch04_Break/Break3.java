@@ -4,15 +4,15 @@ public class Break3 {
 
 	public static void main(String[] args) {
 		
-		//ÀÌ Áß ¹İº¹ ¹®À» ÀüÃ¼ ºüÁ®³ª°¡·Á¸é  
-		//¹Ù±ùÂÊ for¹®ÀÌ³ª while¹® ¾Õ¿¡ Label:À» Ç¥½ÃÇÏ°í, break¹® µÚ¿¡ LabelÇ¥½Ã;
+		//ì´ ì¤‘ ë°˜ë³µ ë¬¸ì„ ì „ì²´ ë¹ ì ¸ë‚˜ê°€ë ¤ë©´  
+		//ë°”ê¹¥ìª½ forë¬¸ì´ë‚˜ whileë¬¸ ì•ì— Label:ì„ í‘œì‹œí•˜ê³ , breakë¬¸ ë’¤ì— Labelí‘œì‹œ;
 		Label: for(int i=0;i<=9;i++) {
 			System.out.print("i=" + i + "\t");
 			for(int j=0;j<=9;j++) {
 				System.out.print("j="+j+"\t");
-				if(j>3)  break Label;//Label·Î Ç¥½ÃµÈ ¹Ù±ùÂÊ for¹®À» ¹ş¾î³².
+				if(j>3)  break Label;//Labelë¡œ í‘œì‹œëœ ë°”ê¹¥ìª½ forë¬¸ì„ ë²—ì–´ë‚¨.
 			}
-			System.out.println();//ÇÑ ÁÙ ¾Æ·¡·Î ³»¸®±â
+			System.out.println();//í•œ ì¤„ ì•„ë˜ë¡œ ë‚´ë¦¬ê¸°
 		}
 
 	}

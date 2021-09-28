@@ -4,21 +4,21 @@ public class ReferenceExam01 {
 
 	public static void main(String[] args) {
 		
-		//¸®ÅÍ·²·Î ¹®ÀÚ¿­ »ı¼º
-		String strA = "È«±æµ¿";
-		String strB = "È«±æµ¿";
-		if(strA==strB) System.out.println("°°Àº ¹®ÀÚ¿­À» ÂüÁ¶ÇÑ´Ù.");
-		else System.out.println("´Ù¸¥ ¹®ÀÚ¿­À» ÂüÁ¶ÇÑ´Ù.");
+		//ë¦¬í„°ëŸ´ë¡œ ë¬¸ìì—´ ìƒì„±
+		String strA = "í™ê¸¸ë™";
+		String strB = "í™ê¸¸ë™";
+		if(strA==strB) System.out.println("ê°™ì€ ë¬¸ìì—´ì„ ì°¸ì¡°í•œë‹¤.");
+		else System.out.println("ë‹¤ë¥¸ ë¬¸ìì—´ì„ ì°¸ì¡°í•œë‹¤.");
 		
-		//new String() - »ı¼ºÀÚ·Î ¹®ÀÚ¿­ »ı¼º
-		String str1 = new String("È«±æµ¿");
-		String str2 = new String("È«±æµ¿");
-		if(str1==str2) System.out.println("°°Àº ¹®ÀÚ¿­À» ÂüÁ¶ÇÑ´Ù.");
-		else System.out.println("´Ù¸¥ ¹®ÀÚ¿­À» ÂüÁ¶ÇÑ´Ù.");
+		//new String() - ìƒì„±ìë¡œ ë¬¸ìì—´ ìƒì„±
+		String str1 = new String("í™ê¸¸ë™");
+		String str2 = new String("í™ê¸¸ë™");
+		if(str1==str2) System.out.println("ê°™ì€ ë¬¸ìì—´ì„ ì°¸ì¡°í•œë‹¤.");
+		else System.out.println("ë‹¤ë¥¸ ë¬¸ìì—´ì„ ì°¸ì¡°í•œë‹¤.");
 
 		//
-		str1="ÀÏÁö¸Å";
-		str1="È«±æµ¿ÀÏÁö¸Å";
+		str1="ì¼ì§€ë§¤";
+		str1="í™ê¸¸ë™ì¼ì§€ë§¤";
 		
 	}
 

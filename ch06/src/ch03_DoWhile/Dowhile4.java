@@ -6,14 +6,14 @@ public class Dowhile4 {
 	public static void main(String[] args) {
 		
 		int i=1, j=2;
-		//ÁßÃ¸ do~while¹®À¸·Î ±¸±¸´Ü Ãâ·Â
+		//ì¤‘ì²© do~whileë¬¸ìœ¼ë¡œ êµ¬êµ¬ë‹¨ ì¶œë ¥
 		do {
 			do {
 				System.out.print(j+"*"+i+"="+(i*j)+"\t");
-				j++;//Áõ°¡
+				j++;//ì¦ê°€
 		}while(j<=9);
-		i++;//Áõ°¡
-		j=2;//ÃÊ±âÈ­
+		i++;//ì¦ê°€
+		j=2;//ì´ˆê¸°í™”
 		System.out.println();
 
 	}while(i<=9);

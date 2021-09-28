@@ -9,11 +9,11 @@ public class DoWhile2 {
 		Scanner scanner = new Scanner(System.in);
 		int num=0;
 		do {
-			System.out.println("Â¦¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä:");
+			System.out.println("ì§ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”:");
 			num = scanner.nextInt();
 			
-		}while(num%2!=0); //numÀ» 2·Î ³ª´©¾úÀ» ¶§ ³ª¸ÓÁö°¡ 0ÀÌ ¾Æ´Ñ °æ¿ì
-		System.out.println("´ç½ÅÀÌ ÀÔ·ÂÇÑ Â¦¼ö:"+num);
+		}while(num%2!=0); //numì„ 2ë¡œ ë‚˜ëˆ„ì—ˆì„ ë•Œ ë‚˜ë¨¸ì§€ê°€ 0ì´ ì•„ë‹Œ ê²½ìš°
+		System.out.println("ë‹¹ì‹ ì´ ì…ë ¥í•œ ì§ìˆ˜:"+num);
 
 	}
 

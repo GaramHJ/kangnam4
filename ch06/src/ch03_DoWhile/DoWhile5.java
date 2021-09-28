@@ -7,22 +7,22 @@ public class DoWhile5 {
 	public static void main(String[] args) {
 		
 		Scanner scanner = new Scanner(System.in);
-		int ran = (int)(Math.random()*100)+1; //Á¤¼ö ÀÓÀÇ°ª ÀúÀå
+		int ran = (int)(Math.random()*100)+1; //ì •ìˆ˜ ì„ì˜ê°’ ì €ì¥
 		int cnt = 1;
 		
 		do {
-			System.out.println("1ºÎÅÍ 100±îÁöÀÇ ¼ıÀÚ ÀÔ·Â!");
+			System.out.println("1ë¶€í„° 100ê¹Œì§€ì˜ ìˆ«ì ì…ë ¥!");
 			int num = scanner.nextInt();
 			if(num==ran) {
-				System.out.println("ÃàÇÏ!"+cnt+"¹ø ¸¸¿¡ ¸ÂÃè½À´Ï´Ù.");
+				System.out.println("ì¶•í•˜!"+cnt+"ë²ˆ ë§Œì— ë§ì·„ìŠµë‹ˆë‹¤.");
 				break;
 			}else if(num>ran){
-				System.out.println("ÀÔ·ÂµÈ ¼ıÀÚ°¡ ·£´ı¼ıÀÚº¸´Ù Å®´Ï´Ù.");
+				System.out.println("ì…ë ¥ëœ ìˆ«ìê°€ ëœë¤ìˆ«ìë³´ë‹¤ í½ë‹ˆë‹¤.");
 			}else {
-				System.out.println("ÀÔ·ÂµÈ ¼ıÀÚ°¡ ·£´ı¼ıÀÚº¸´Ù ÀÛ½À´Ï´Ù.");
+				System.out.println("ì…ë ¥ëœ ìˆ«ìê°€ ëœë¤ìˆ«ìë³´ë‹¤ ì‘ìŠµë‹ˆë‹¤.");
 			}
 			cnt++;
-		}while(true); //¹«ÇÑ¹İº¹
+		}while(true); //ë¬´í•œë°˜ë³µ
 
 	}
 

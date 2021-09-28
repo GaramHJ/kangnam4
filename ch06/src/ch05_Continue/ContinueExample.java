@@ -1,23 +1,24 @@
 package ch05_Continue;
 
 import java.util.Scanner;
-// 5°³ÀÇ Á¤¼ö¸¦ Å°º¸µå·ÎºÎÅÍ ÀÔ·Â¹Ş°í ±× Áß ¾ç¼öµé¸¸ ÇÕÇÑ °á°ú Ãâ·Â
+//5ê°œì˜ ì •ìˆ˜ë¥¼ í‚¤ë³´ë“œë¡œë¶€í„° ì…ë ¥ë°›ê³  ê·¸ ì¤‘ ì–‘ìˆ˜ë“¤ë§Œ í•©í•œ ê²°ê³¼ ì¶œë ¥
 public class ContinueExample {
 
 	public static void main(String[] args) {
 		
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Á¤¼ö 5°³¸¦ ÀÔ·ÂÇÏ¼¼¿ä:");
+		System.out.println("ì •ìˆ˜ 5ê°œë¥¼ ì…ë ¥í•˜ì„¸ìš”:");
 		int sum=0;
-		for(int i=0;i<5;i++) {//¹İº¹ È½¼ö·Î »ç¿ëµÈ i
+		for(int i=0;i<5;i++) {//ë°˜ë³µ íšŸìˆ˜ë¡œ ì‚¬ìš©ëœ i
 			int n = scanner.nextInt();
-			if(n<0) continue;//À½¼öÀÎ °æ¿ì skipÇÏ±â
+			if(n<0) continue;//ìŒìˆ˜ì¸ ê²½ìš° skipí•˜ê¸°
 			else
-				sum+=n;//¾ç¼öÀÎ °æ¿ì ´õÇÏ±â
+				sum+=n;//ì–‘ìˆ˜ì¸ ê²½ìš° ë”í•˜ê¸°
 		}
-		System.out.println("¾ç¼öÀÇ ÇÕÀº:"+sum);
+		System.out.println("ì–‘ìˆ˜ì˜ í•©ì€:"+sum);
 		//1.7autocloseable
 	    scanner.close();
+
 
 
 	}

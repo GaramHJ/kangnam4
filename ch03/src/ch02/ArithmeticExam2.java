@@ -8,23 +8,23 @@ public class ArithmeticExam2 {
 		
 		int time;
 		
-		//Å°º¸µå·Î ÀÔ·Â¹ŞÀ» ½ºÄ³³Ê °´Ã¼ »ı¼º
-		// Å¸ÀÔ º¯¼ö¸í
+		//í‚¤ë³´ë“œë¡œ ì…ë ¥ë°›ì„ ìŠ¤ìºë„ˆ ê°ì²´ ìƒì„±
+		// íƒ€ì… ë³€ìˆ˜ëª…
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.println("½ÃºĞÃÊ·Î Ãâ·ÂÇÏ±â");
-		System.out.println("°è»êÇÒ ÃÊ¸¦ Á¤¼ö·Î ÀÔ·ÂÇÏ¼¼¿ä:");
+		System.out.println("ì‹œë¶„ì´ˆë¡œ ì¶œë ¥í•˜ê¸°");
+		System.out.println("ê³„ì‚°í•  ì´ˆë¥¼ ì •ìˆ˜ë¡œ ì…ë ¥í•˜ì„¸ìš”:");
 		time = scanner.nextInt();
 		
-		//¸ò°ú ³ª¸ÓÁö
-		int second = time % 60; //5000ÃÊ = minute * 60 + ³ª¸ÓÁö ÃÊ
+		//ëª«ê³¼ ë‚˜ë¨¸ì§€
+		int second = time % 60; //5000ì´ˆ = minute * 60 + ë‚˜ë¨¸ì§€ ì´ˆ
 		int minute = (time/60) % 60; //
 		int hour = (time/60)/60;
 		
-		System.out.println(time + "ÃÊ´Â");
-		System.out.println(hour + "½Ã°£");
-		System.out.println(minute + "ºĞ");
-		System.out.println(second + "ÃÊÀÔ´Ï´Ù.");
+		System.out.println(time + "ì´ˆëŠ”");
+		System.out.println(hour + "ì‹œê°„");
+		System.out.println(minute + "ë¶„");
+		System.out.println(second + "ì´ˆì…ë‹ˆë‹¤.");
 		
 
 	}

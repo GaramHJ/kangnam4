@@ -11,8 +11,8 @@ public class ArithmeticExam4 {
 		Scanner scanner = new Scanner(System.in);
 		input = scanner.nextInt();
 		
-		System.out.println("½ÊÀÇÀÚ¸®¼ö:"+(input/10)); //¸ò
-		System.out.println("1ÀÇÀÚ¸®¼ö:"+(input%10)); //³ª¸ÓÁö
+		System.out.println("ì‹­ì˜ìë¦¬ìˆ˜:"+(input/10)); //ëª«
+		System.out.println("1ì˜ìë¦¬ìˆ˜:"+(input%10)); //ë‚˜ë¨¸ì§€
 	}
 
 }

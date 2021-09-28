@@ -6,22 +6,22 @@ public class CompreExample2 {
 		
 		int age = 25;
 		
-		// if(20 <= age <300) {} - ÆÄÀÌ½ã¿¡¼­ °¡´ÉÇÑ ¼Ò½º. ÀÚ¹Ù¿¡¼­´Â ÀÌ·¸°Ô ºÒ°¡.
+		// if(20 <= age <300) {} - íŒŒì´ì¬ì—ì„œ ê°€ëŠ¥í•œ ì†ŒìŠ¤. ìžë°”ì—ì„œëŠ” ì´ë ‡ê²Œ ë¶ˆê°€.
 		
 		if((age >= 20) && (age < 30)){
-			System.out.println("20´ë");
+			System.out.println("20ëŒ€");
 		}
-		char c = 'x'; //'x' -> ASCIIÄÚµå°ª ºñ±³
+		char c = 'x'; //'x' -> ASCIIì½”ë“œê°’ ë¹„êµ
 		
 		if((c>='A') && (c<='Z')){ // 
-			System.out.println("¿µ¹®´ë¹®ÀÚ");
+			System.out.println("ì˜ë¬¸ëŒ€ë¬¸ìž");
 		}
 		
 		int x = 50;
 		int y = 25;
 		
 		if((x>=0) && (y>=0) && (x<=50) && (y<=50)) {
-			System.out.println("¿µ¿ª ³»¿¡ ÀÖ´Â ÁÂÇ¥");
+			System.out.println("ì˜ì—­ ë‚´ì— ìžˆëŠ” ì¢Œí‘œ");
 		}
 		
 

@@ -16,12 +16,12 @@ public class DenyLogicOperatorExample {
 		
 		int i = 0;
 		while(play) { //true -> false
-			i++; //Áõ°¡
+			i++; //ì¦ê°€
 			System.out.println("hello");
-			if(i==5) play = !play; //¹İº¹¹®À» ºüÁ®³ª°¡´Â Á¶°Ç »ç¿ë
+			if(i==5) play = !play; //ë°˜ë³µë¬¸ì„ ë¹ ì ¸ë‚˜ê°€ëŠ” ì¡°ê±´ ì‚¬ìš©
 		}
 		
-		System.out.println("Á¾·á");
+		System.out.println("ì¢…ë£Œ");
 
 	}
 

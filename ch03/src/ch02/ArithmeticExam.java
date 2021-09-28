@@ -5,17 +5,17 @@ public class ArithmeticExam {
 	public static void main(String[] args) {
 		
 		int time = 5000;
-		System.out.println("½ÃºĞÃÊ·Î Ãâ·ÂÇÏ±â");
+		System.out.println("ì‹œë¶„ì´ˆë¡œ ì¶œë ¥í•˜ê¸°");
 		
-		//¸ò°ú ³ª¸ÓÁö
-		int second = time % 60; //5000ÃÊ = minute * 60 + ³ª¸ÓÁö ÃÊ
+		//ëª«ê³¼ ë‚˜ë¨¸ì§€
+		int second = time % 60; //5000ì´ˆ = minute * 60 + ë‚˜ë¨¸ì§€ ì´ˆ
 		int minute = (time/60) % 60; //
 		int hour = (time/60)/60;
 		
-		System.out.println(time + "ÃÊ´Â");
-		System.out.println(hour + "½Ã°£");
-		System.out.println(minute + "ºĞ");
-		System.out.println(second + "ÃÊÀÔ´Ï´Ù.");
+		System.out.println(time + "ì´ˆëŠ”");
+		System.out.println(hour + "ì‹œê°„");
+		System.out.println(minute + "ë¶„");
+		System.out.println(second + "ì´ˆì…ë‹ˆë‹¤.");
 		
 
 	}

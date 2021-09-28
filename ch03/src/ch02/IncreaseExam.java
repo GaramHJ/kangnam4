@@ -6,7 +6,7 @@ public class IncreaseExam {
 		int x = -1;
 		// x++; //0
 		
-		// ÇöÀçÀÇ x°ªÀ» ¿¬»ê¿¡ »ç¿ëÇÏ°í ½Í´Ù.
+		// í˜„ì¬ì˜ xê°’ì„ ì—°ì‚°ì— ì‚¬ìš©í•˜ê³  ì‹¶ë‹¤.
 		if(5/(x++)==5) { // -5 =/= 5
 			System.out.println("true");
 		}else {
@@ -14,7 +14,7 @@ public class IncreaseExam {
 		}
 		
 
-		//Áõ°¡µÈ xÀÇ °ªÀ» Ãâ·ÂÇÏ°í ½Í´Ù.
+		//ì¦ê°€ëœ xì˜ ê°’ì„ ì¶œë ¥í•˜ê³  ì‹¶ë‹¤.
 		System.out.println(x);
 
 	}

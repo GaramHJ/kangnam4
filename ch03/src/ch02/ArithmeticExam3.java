@@ -1,6 +1,6 @@
 package ch02;
 
-// Ctrl + Shift + O = ºÒÇÊ¿äÇÑ import ¶Ç´Â º¯¼ö¸¦ ¾ø¾ÖÁÜ
+//Ctrl + Shift + O = ë¶ˆí•„ìš”í•œ import ë˜ëŠ” ë³€ìˆ˜ë¥¼ ì—†ì• ì¤Œ
 import java.util.Scanner;
 
 public class ArithmeticExam3 {
@@ -12,11 +12,11 @@ public class ArithmeticExam3 {
 		Scanner scanner = new Scanner(System.in);
 		input = scanner.nextInt();
 		
-		if(input % 2==0) { //Â¦¼ö
-			System.out.println("Â¦¼ö");
+		if(input % 2==0) { //ì§ìˆ˜
+			System.out.println("ì§ìˆ˜");
 		}
 		else {
-			System.out.println("È¦¼ö");
+			System.out.println("í™€ìˆ˜");
 		}
 	}
 

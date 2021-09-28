@@ -7,13 +7,12 @@ public class ConditionOpetatorExam2 {
 		int a=5;
 		int b=3;
 		
-		//Á¶°Ç ? Âü : °ÅÁþ
-		System.out.println("µÎ ¼öÀÇ Â÷´Â"+(a>b ? a-b : b-a));
+		//ì¡°ê±´ ? ì°¸ : ê±°ì§“
+		System.out.println("ë‘ ìˆ˜ì˜ ì°¨ëŠ”"+(a>b ? a-b : b-a));
 		
-		//a°¡ Å©´Ù, b°¡ Å©´Ù, µÑ ´Ù °°´Ù
-		// Á¶°Ç ? Âü : (Á¶°Ç ? Âü : °ÅÁþ)
-		System.out.println("µÎ ¼öÀÇ Â÷´Â"+(a>b ? "a°¡ Å©´Ù" : a<b ? "b°¡ Å©´Ù" : "°°´Ù"));
-		
+		//aê°€ í¬ë‹¤, bê°€ í¬ë‹¤, ë‘˜ ë‹¤ ê°™ë‹¤
+		// ì¡°ê±´ ? ì°¸ : (ì¡°ê±´ ? ì°¸ : ê±°ì§“)
+		System.out.println("ë‘ ìˆ˜ì˜ ì°¨ëŠ”"+(a>b ? "aê°€ í¬ë‹¤" : a<b ? "bê°€ í¬ë‹¤" : "ê°™ë‹¤"));
 		
 
 	}

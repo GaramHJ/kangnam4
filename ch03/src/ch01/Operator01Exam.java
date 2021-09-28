@@ -4,11 +4,13 @@ public class Operator01Exam {
 
 	public static void main(String[] args) {
 		
-		/* ´ÜÇ× ¿¬»êÀÚ , +, - ºÎÈ£ ¿¬»ê±â´É */
-		int x = -100;// - ´Â À½¼ö
+		/* ë‹¨í•­ ì—°ì‚°ì , +, - ë¶€í˜¸ ì—°ì‚°ê¸°ëŠ¥ */
+		int x = -100;// - ëŠ” ìŒìˆ˜
 		System.out.println(x);
-		int result = +x; // ¾ç¼ö +(-) => -
+		
+		int result = +x; // ì–‘ìˆ˜ +(-) => -
 		System.out.println(result);
+		
 		int result2 = -x; //-(-) => +
 		System.out.println(result2);
 

@@ -3,15 +3,15 @@ package ch01;
 public class IncreaseDecreaseOperationExample {
 
 	public static void main(String[] args) {
-		// ´ÜÇ×¿¬»êÀÚ - Áõ°¨, ++, --
+		// ë‹¨í•­ì—°ì‚°ì - ì¦ê°, ++, --
 		int x = 10;
 		int y = 10;
 		int z;
 		
 		System.out.println("---------------");
-		x++; // ÈÄÀ§¿¬»ê
+		x++; // í›„ìœ„ì—°ì‚°
 		System.out.println(x);
-		++x; // ÀüÀ§¿¬»ê
+		++x; // ì „ìœ„ì—°ì‚°
 		System.out.println(x);
 		System.out.println("---------------");
 		y--;
@@ -21,29 +21,29 @@ public class IncreaseDecreaseOperationExample {
 		System.out.println("---------------");
 		
 		
-		// ´Üµ¶¿¬»êÀÌ ¾Æ´Ñ ´Ù¸¥ ¿¬»ê°ú ÇÔ²² ½ÇÇàµÇ´Â °æ¿ì
-		// ÀüÀ§¿¬»êÀÎ °æ¿ì´Â ¤·
+		// ë‹¨ë…ì—°ì‚°ì´ ì•„ë‹Œ ë‹¤ë¥¸ ì—°ì‚°ê³¼ í•¨ê»˜ ì‹¤í–‰ë˜ëŠ” ê²½ìš°
+		// ì „ìœ„ì—°ì‚°ì¸ ê²½ìš°ëŠ” ã…‡
 		z=x++;
 		System.out.println(z); // 12
 		System.out.println(x); // 13
 		
-		// ÇöÀç x=12, z=10;
+		// í˜„ì¬ x=12, z=10;
 		z=++x;
 		System.out.println(z); // 14
 		System.out.println(x); // 14
 		
-		z=y--; //ÇöÀç y=8, z=14
+		z=y--; //í˜„ì¬ y=8, z=14
 		System.out.println(z); //8
 		System.out.println(y); //7
 		
-		z=--y; //ÇöÀç y=7, z=8
+		z=--y; //í˜„ì¬ y=7, z=8
 		System.out.println(z); //6
 		System.out.println(y); //6
 		
 		int family = 50;
 		family++; //51
 		++family; //52
-		System.out.println("¿ì¸®ÁıÀÇ ½Ä±¸´Â ¸ğµÎ"+((++family)+1)+"¸íÀÌ´Ù"); //family++ = 52ÀÎ »óÅÂ
+		System.out.println("ìš°ë¦¬ì§‘ì˜ ì‹êµ¬ëŠ” ëª¨ë‘"+((++family)+1)+"ëª…ì´ë‹¤"); //family++ = 52ì¸ ìƒíƒœ
 		System.out.println(family); //53
 
 	}

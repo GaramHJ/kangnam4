@@ -4,11 +4,11 @@ public class IncreaseDecreaseExample3 {
 
 	public static void main(String[] args) {
 		
-		for(int i=1;i<=10;i++) { //¹İº¹¹®ÀÇ ¸¶Áö¸·¿¡ ÀÖ´Â ½ÇÇà¹® i++´Â Áõ°¡ ¿¬»ê
+		for(int i=1;i<=10;i++) { //ë°˜ë³µë¬¸ì˜ ë§ˆì§€ë§‰ì— ìˆëŠ” ì‹¤í–‰ë¬¸ i++ëŠ” ì¦ê°€ ì—°ì‚°
 			System.out.println(i);
 		}
 		
-		for(int j=10; j>=1; j--) { //j--´Â °¨¼Ò¿¬»ê
+		for(int j=10; j>=1; j--) { //j--ëŠ” ê°ì†Œì—°ì‚°
 			System.out.println(j);
 		}
 

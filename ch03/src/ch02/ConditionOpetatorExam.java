@@ -8,13 +8,13 @@ public class ConditionOpetatorExam {
 		int y=3;
 		
 		int s;
-		// Á¶°Ç¹®À» ÀÌ¿ëÇÑ Ã³¸®
+		// ì¡°ê±´ë¬¸ì„ ì´ìš©í•œ ì²˜ë¦¬
 		if(x>y) s=1;
 		else s=-1;
 		
 		System.out.println(s);
 		
-		//»ïÇ×½ÄÀ» ÀÌ¿ëÇÑ Ã³¸®
+		//ì‚¼í•­ì‹ì„ ì´ìš©í•œ ì²˜ë¦¬
 		s= x>y ? 1:-1;
 		System.out.println(s);
 		

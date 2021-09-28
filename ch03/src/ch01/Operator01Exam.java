@@ -4,16 +4,12 @@ public class Operator01Exam {
 
 	public static void main(String[] args) {
 		
-		//ë‹¨í•­ ì—°ì‚°ì
-		int x = -100; //-ëŠ” ìŒìˆ˜
+		/* ´ÜÇ× ¿¬»êÀÚ , +, - ºÎÈ£ ¿¬»ê±â´É */
+		int x = -100;// - ´Â À½¼ö
 		System.out.println(x);
-<<<<<<< HEAD
-		int result = +x; //¾ç¼ö +(-) -> -
-=======
-		int result = +x; //ì–‘ìˆ˜ +(-) -> -
->>>>>>> refs/remotes/origin/main
+		int result = +x; // ¾ç¼ö +(-) => -
 		System.out.println(result);
-		int result2 = -x; //-(-) -> +
+		int result2 = -x; //-(-) => +
 		System.out.println(result2);
 
 	}

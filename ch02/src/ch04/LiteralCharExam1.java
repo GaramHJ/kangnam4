@@ -6,12 +6,12 @@ public class LiteralCharExam1 {
 		
 		char c1 = 'w';
 		char c2 = 'A';
-		char c3 = '°¡';
+		char c3 = 'ê°€';
 		char c4 = '*';
 		char c5 = '3';
-		char c6 = '±Û';
-		// À¯´ÏÄÚµå´Â 127¹ø±îÁö´Â ASCII ÄÚµå°ª°ú °°´Ù.
-		char c7 = '\u0041'; // À¯´ÏÄÚµå ¹®ÀÚ 4*16+1=
+		char c6 = 'ê¸€';
+		// ìœ ë‹ˆì½”ë“œëŠ” 127ë²ˆê¹Œì§€ëŠ” ASCII ì½”ë“œê°’ê³¼ ê°™ë‹¤.
+		char c7 = '\u0041'; // ìœ ë‹ˆì½”ë“œ ë¬¸ì 4*16+1=
 		char c8 = '\uae00';
 		
 		//D64D AE38 B3D9
@@ -23,7 +23,7 @@ public class LiteralCharExam1 {
 		System.out.println(g);
 		System.out.println(d);
 		
-		//°¢ÀÚ ÀÌ¸§À» À¯´ÏÄÚµå·Î Ãâ·ÂÇØº¸¼¼¿ä.
+		//ê°ì ì´ë¦„ì„ ìœ ë‹ˆì½”ë“œë¡œ ì¶œë ¥í•´ë³´ì„¸ìš”.
 		
 		//C548 D61C C815
 		char a = '\uC548';
@@ -43,6 +43,7 @@ public class LiteralCharExam1 {
 		System.out.println(c6);
 		System.out.println(c7);
 		System.out.println(c8);
+		
 		
 		
 

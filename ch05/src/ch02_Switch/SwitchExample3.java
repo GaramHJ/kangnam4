@@ -5,28 +5,27 @@ import java.util.Scanner;
 public class SwitchExample3 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
-		//¿ù¿äÀÏ,È­¿äÀÏ,¼ö¿äÀÏ,¸ñ¿äÀÏ,±İ¿äÀÏ,Åä¿äÀÏ,ÀÏ¿äÀÏ
-		//¿ù~¸ñ¿äÀÏ : ¿­½ÉÈ÷ °øºÎÇÕ´Ï´Ù.
-		//±İ¿äÀÏ : ¼îÇÎÀ» ÇÕ´Ï´Ù.
-		//Åä¿äÀÏ,ÀÏ¿äÀÏ : ·¹Àú¸¦ Áñ±é´Ï´Ù.
+		//ì›”ìš”ì¼,í™”ìš”ì¼,ìˆ˜ìš”ì¼,ëª©ìš”ì¼,ê¸ˆìš”ì¼,í† ìš”ì¼,ì¼ìš”ì¼
+		//ì›”~ëª©ìš”ì¼ : ì—´ì‹¬íˆ ê³µë¶€í•©ë‹ˆë‹¤.
+		//ê¸ˆìš”ì¼ : ì‡¼í•‘ì„ í•©ë‹ˆë‹¤.
+		//í† ìš”ì¼,ì¼ìš”ì¼ : ë ˆì €ë¥¼ ì¦ê¹ë‹ˆë‹¤.
 		
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("¿äÀÏÀ» ÀÔ·ÂÇØÁÖ¼¼¿ä.(ex.¿ù¿äÀÏ):");
+		System.out.println("ìš”ì¼ì„ ì…ë ¥í•´ì£¼ì„¸ìš”.(ex.ì›”ìš”ì¼):");
 		String weekDay = scanner.next();
 		
 		switch(weekDay) {
-		case "¿ù¿äÀÏ": case "È­¿äÀÏ": case "¼ö¿äÀÏ": case "¸ñ¿äÀÏ": 
-			System.out.println("¿­½ÉÈ÷ °øºÎÇÕ´Ï´Ù."); break;
-		case "±İ¿äÀÏ":
-			System.out.println("¼îÇÎÀ» ÇÕ´Ï´Ù."); break;
-		case "Åä¿äÀÏ": case "ÀÏ¿äÀÏ":
-			System.out.println("·¹Àú¸¦ Áñ±é´Ï´Ù."); break;
+		case "ì›”ìš”ì¼": case "í™”ìš”ì¼": case "ìˆ˜ìš”ì¼": case "ëª©ìš”ì¼": 
+			System.out.println("ì—´ì‹¬íˆ ê³µë¶€í•©ë‹ˆë‹¤."); break;
+		case "ê¸ˆìš”ì¼":
+			System.out.println("ì‡¼í•‘ì„ í•©ë‹ˆë‹¤."); break;
+		case "í† ìš”ì¼": case "ì¼ìš”ì¼":
+			System.out.println("ë ˆì €ë¥¼ ì¦ê¹ë‹ˆë‹¤."); break;
 		
 		
 		}
-		//ÀÚ¿ø ÇØÁ¦
+		//ìì› í•´ì œ
 		scanner.close();
 
 	}

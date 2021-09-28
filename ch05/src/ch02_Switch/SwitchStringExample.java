@@ -4,15 +4,16 @@ public class SwitchStringExample {
 
 	public static void main(String[] args) {
 		
-		String position = "°úÀå";
+		String position = "ê³¼ì¥";
 		switch(position) {
-		case "ºÎÀå":
-			System.out.println("700¸¸¿ø"); break;
-		case "°úÀå":
-			System.out.println("500¸¸¿ø"); break;
+		case "ë¶€ì¥":
+			System.out.println("700ë§Œì›"); break;
+		case "ê³¼ì¥":
+			System.out.println("500ë§Œì›"); break;
 		default:
-			System.out.println("300¸¸¿ø");
+			System.out.println("300ë§Œì›");
 		}
+
 
 	}
 

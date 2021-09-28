@@ -22,7 +22,21 @@ public class ArrExam01 {
 			System.out.println("1.성적입력|2.통계(합/평균)출력|3.성적순 출력하기|4.종료");
 			System.out.println("---------------------------------------------");
 			int menu=scanner.nextInt();
-
+			switch(menu) {
+			case 1:
+				for() {
+					scores[i]=scanner.nextInt();
+				}break;
+			case 2:
+				for() {
+					
+				}break;
+			case 3:
+				for() {
+					
+				}break;
+			case 4: run !=run;
+			}
 		}
 
 	}

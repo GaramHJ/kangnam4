@@ -3,7 +3,7 @@ package ch03_for;
 public class ForExam3 {
 
 	public static void main(String[] args) {
-		//1~100±îÁöÀÇ ÇÕ ±¸ÇÏ±â
+		//1~100ê¹Œì§€ì˜ í•© êµ¬í•˜ê¸°
 		int sum=0;
 		for (int i = 1; i<=100; i++) {
 			sum +=i;

@@ -7,9 +7,9 @@ public class ForExam5Gugu {
 	public static void main(String[] args) {
 		
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("º¸°í½ÍÀº ±¸±¸´ÜÀº?");
+		System.out.println("ë³´ê³ ì‹¶ì€ êµ¬êµ¬ë‹¨ì€?");
 		int num = scanner.nextInt();
-		System.out.println("±¸±¸´Ü"+num+"´Ü");
+		System.out.println("êµ¬êµ¬ë‹¨"+num+"ë‹¨");
 		for(int i=1; i<=9;i++) {
 			System.out.println(num+"*"+i+"="+i*num);
 			//System.out.print(num+"*"+i+"="+i*num+"\t");

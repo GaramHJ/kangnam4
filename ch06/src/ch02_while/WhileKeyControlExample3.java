@@ -11,27 +11,28 @@ public class WhileKeyControlExample3 {
 	     int keyCode =0;
 	     Scanner scanner = new Scanner(System.in);
 	     
-	     //½ºÄ³³Ê´Â enterÅ° °ªÀ» Á¦°Å ÇÑÈÄ °ªÀ» ¸®ÅÏ.
+	     //ìŠ¤ìºë„ˆëŠ” enterí‚¤ ê°’ì„ ì œê±° í•œí›„ ê°’ì„ ë¦¬í„´.
 	     while(run) {
 	    	 if(keyCode !=-1) {//
 	    		 System.out.println("----------------");
-	    		 System.out.println("1.Áõ¼Ó | 2. °¨¼Ó | 3. ÁßÁö:");
+	    		 System.out.println("1.ì¦ì† | 2. ê°ì† | 3. ì¤‘ì§€:");
 	    		 System.out.println("----------------");
-	    		 System.out.println("¼±ÅÃ: ");
+	    		 System.out.println("ì„ íƒ: ");
 	    	 }
-	    	 keyCode = scanner.nextInt();//Å°º¸µå·Î ºÎÅÍ intÅ¸ÀÔ °ª ÀÔ·Â
+	    	 keyCode = scanner.nextInt();//í‚¤ë³´ë“œë¡œ ë¶€í„° intíƒ€ì… ê°’ ì…ë ¥
 	    	
 	    	 if(keyCode==1) {//"1"
 	    		 speed++;
-	    		 System.out.println("ÇöÀç ¼Óµµ="+speed);
+	    		 System.out.println("í˜„ì¬ ì†ë„="+speed);
 	    	 }else if(keyCode==2) {//"2"
 	    		 speed--;
-	    		 System.out.println("ÇöÀç ¼Óµµ="+speed);
+	    		 System.out.println("í˜„ì¬ ì†ë„="+speed);
 	    	 }else if(keyCode==3) {//"3"
 	    		 run=false;
 	    	 }
-	     }//while³¡.
-			System.out.println("Á¾·á");
+	     }//whileë.
+			System.out.println("ì¢…ë£Œ");
+
 
 	}
 

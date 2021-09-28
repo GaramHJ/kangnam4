@@ -12,24 +12,24 @@ public class WhileKeyControlExample {
 	     int keyCode =0;
 	     
 	     while(run) {
-	    	 if(keyCode !=13 && keyCode!=10) {//EnterÅ°°¡ ¾Æ´Ï¸é
+	    	 if(keyCode !=13 && keyCode!=10) {//Enterí‚¤ê°€ ì•„ë‹ˆë©´
 	    		 System.out.println("----------------");
-	    		 System.out.println("1.Áõ¼Ó | 2. °¨¼Ó | 3. ÁßÁö:");
+	    		 System.out.println("1.ì¦ì† | 2. ê°ì† | 3. ì¤‘ì§€:");
 	    		 System.out.println("----------------");
-	    		 System.out.println("¼±ÅÃ: ");
+	    		 System.out.println("ì„ íƒ: ");
 	    	 }
-	    	 keyCode = System.in.read();//Å°º¸µå·Î ºÎÅÍ ÀÔ·Â
+	    	 keyCode = System.in.read();//í‚¤ë³´ë“œë¡œ ë¶€í„° ì…ë ¥
 	    	 if(keyCode==49) {//"1"
 	    		 speed++;
-	    		 System.out.println("ÇöÀç ¼Óµµ="+speed);
+	    		 System.out.println("í˜„ì¬ ì†ë„="+speed);
 	    	 }else if(keyCode==50) {//"2"
 	    		 speed--;
-	    		 System.out.println("ÇöÀç ¼Óµµ="+speed);
+	    		 System.out.println("í˜„ì¬ ì†ë„="+speed);
 	    	 }else if(keyCode==51) {//"3"
 	    		 run=false;
 	    	 }
-	     }//while³¡.
-			System.out.println("Á¾·á");
+	     }//whileë.
+			System.out.println("ì¢…ë£Œ");
 	}
 
 }

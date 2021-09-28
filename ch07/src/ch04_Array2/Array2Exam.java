@@ -1,7 +1,7 @@
 package ch04_Array2;
 
 /*
- * 2Çà 3¿­ÀÇ 2Â÷¿ø ¹è¿­ »ı¼º
+ * 2í–‰ 3ì—´ì˜ 2ì°¨ì› ë°°ì—´ ìƒì„±
  * 1,2,3,4,5,6
  * 1,2,3
  * 4,5,6
@@ -16,10 +16,10 @@ public class Array2Exam {
 	       scores[0][0]=1;scores[0][1]=2;scores[0][2]=3;
 	       scores[1][0]=4;scores[1][1]=5;scores[1][2]=6;
 	       
-	       //2Â÷¿ø¿¡¼­ lenghtÀÇ °ªÀº 1Â÷¿ø ¹è¿­ÀÇ °¹¼ö ÀÇ¹Ì
-	       System.out.println("1Â÷¿ø¹è¿­ÀÇ °¹¼ö:" +scores.length);//2
+	       //2ì°¨ì›ì—ì„œ lenghtì˜ ê°’ì€ 1ì°¨ì› ë°°ì—´ì˜ ê°¯ìˆ˜ ì˜ë¯¸
+	       System.out.println("1ì°¨ì›ë°°ì—´ì˜ ê°¯ìˆ˜:" +scores.length);//2
 	       
-	       //Ãâ·Â
+	       //ì¶œë ¥
 	       for(int i=0;i<scores.length;i++) {
 	    	   System.out.print(scores[i][0]+" ");
 	    	   System.out.print(scores[i][1]+" ");

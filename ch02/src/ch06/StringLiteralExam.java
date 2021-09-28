@@ -4,16 +4,16 @@ public class StringLiteralExam {
 
 	public static void main(String[] args) {
 		
-		//¿µ¹®, ÇÑ±Û ÀúÀå
+		//ì˜ë¬¸, í•œê¸€ ì €ì¥
 		String str1 = "Good";
 		String str2 = "Morning";
-		String str3 = "ÀÚ¹Ù";
+		String str3 = "ìë°”";
 		
-		//¼ıÀÚÇü ¹®ÀÚ¿­
+		//ìˆ«ìí˜• ë¬¸ìì—´
 		String str4 = "3.19";
 		String str5 = "26";
 		
-		//¼ıÀÚÇü ¹®ÀÚ¿­À» ¼ıÀÚÅ¸ÀÔÀ¸·Î º¯°æ °¡´É
+		//ìˆ«ìí˜• ë¬¸ìì—´ì„ ìˆ«ìíƒ€ì…ìœ¼ë¡œ ë³€ê²½ ê°€ëŠ¥
 		int n1 = Integer.parseInt(str5);
 		double d1 = Double.parseDouble(str4);
 		double result = n1 + d1;
@@ -23,8 +23,9 @@ public class StringLiteralExam {
 		System.out.println(result);
 		
 		
-		//¹®ÀÚ ÇÏ³ª ÀúÀåÇÑ ¹®ÀÚ¿­
+		//ë¬¸ì í•˜ë‚˜ ì €ì¥í•œ ë¬¸ìì—´
 		String str6 = "a";
+		
 		
 
 	}

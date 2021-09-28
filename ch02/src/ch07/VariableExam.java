@@ -4,16 +4,16 @@ public class VariableExam {
 
 	public static void main(String[] args) {
 		
-		// 10 + 20ÀÇ °á°ú Ãâ·Â
+		// 10 + 20ì˜ ê²°ê³¼ ì¶œë ¥
 		System.out.println(10+20);
 		
-		// 10 + 30ÀÇ °á°ú Ãâ·Â
+		// 10 + 30ì˜ ê²°ê³¼ ì¶œë ¥
 		System.out.println(10+30);
 		
-		// 20 + 50ÀÇ °á°ú Ãâ·Â
+		// 20 + 50ì˜ ê²°ê³¼ ì¶œë ¥
 		System.out.println(20+50);
 		
-		// 40 + 70ÀÇ °á°ú Ãâ·Â
+		// 40 + 70ì˜ ê²°ê³¼ ì¶œë ¥
 		System.out.println(40+70);
 		
 		int i = 10; int j = 20; int k = 30;

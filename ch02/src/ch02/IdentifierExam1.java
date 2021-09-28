@@ -4,44 +4,43 @@ public class IdentifierExam1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		// º¯¼ö ¼±¾ð
-		// String @myName = "È«±æµ¿" - ¿À·ù : @·Î ½ÃÀÛÇÏ¸é ¾ÈµÊ
-		// int #no = 27; - ¿À·ù : # »ç¿ë ¾ÈµÊ
-		// int !age = 30; - ¿À·ù : ! »ç¿ë ¾ÈµÊ
+		// ë³€ìˆ˜ ì„ ì–¸
+		// String @myName = "í™ê¸¸ë™" - ì˜¤ë¥˜ : @ë¡œ ì‹œìž‘í•˜ë©´ ì•ˆë¨
+		// int #no = 27; - ì˜¤ë¥˜ : # ì‚¬ìš© ì•ˆë¨
+		// int !age = 30; - ì˜¤ë¥˜ : ! ì‚¬ìš© ì•ˆë¨
 		
-		String _name = "ÀÏÁö¸Å"; // Á¤»ó _º¯¼ö¸í  - ÂüÁ¶Å¸ÀÔ(String)
-		int $money = 1000; // Á¤»ó $º¯¼ö¸í		 - ±âº»Å¸ÀÔ(int)
+		String _name = "ì¼ì§€ë§¤"; // ì •ìƒ _ë³€ìˆ˜ëª…  - ì°¸ì¡°íƒ€ìž…(String)
+		int $money = 1000; // ì •ìƒ $ë³€ìˆ˜ëª…		 - ê¸°ë³¸íƒ€ìž…(int)
 		
-		// int 1stJob = 1; - ¿À·ù : ¼ýÀÚ·Î ½ÃÀÛ ¾ÈµÊ
-		int job1st = 1; // Á¤»ó
+		// int 1stJob = 1; - ì˜¤ë¥˜ : ìˆ«ìžë¡œ ì‹œìž‘ ì•ˆë¨
+		int job1st = 1; // ì •ìƒ
 		
-		// int my count = 10; - ¿À·ù : my¿Í count »çÀÌ¿¡ ¶ç¾î¾²±â ¾ÈµÊ
-		// int your		turn = 2; - ¿À·ù : your¿Í turn »çÀÌ¿¡ tab¸¸Å­ÀÇ °ø¹éÀÌ ÀÖÀ¸¸é ¾ÈµÊ
+		// int my count = 10; - ì˜¤ë¥˜ : myì™€ count ì‚¬ì´ì— ë„ì–´ì“°ê¸° ì•ˆë¨
+		// int your		turn = 2; - ì˜¤ë¥˜ : yourì™€ turn ì‚¬ì´ì— tabë§Œí¼ì˜ ê³µë°±ì´ ìžˆìœ¼ë©´ ì•ˆë¨
 		
-		// ±æÀÌ¿¡ Á¦ÇÑ ¾øÀ½
-		// º¯¼ö¸íÀº ¼Ò¹®ÀÚ·Î ½ÃÀÛ
-		// ´Ü¾î¿Í ´Ü¾î°¡ ÇÕÃÄÁø ÇÕ¼º¾îÀÎ °æ¿ì ÇÕÃÄÁö´Â µÚ ´Ü¾îÀÇ Ã¹±ÛÀÚ´Â ´ë¹®ÀÚ·Î ³ª¸ÓÁö´Â ¼Ò¹®ÀÚ·Î Ç¥½Ã - °ü·Ê
-		// -> Ä«¸á Ç¥±â¹ýÀÌ¶ó°í ÇÔ
-		String myCountryNameAndMycityNameAndMydongis = "´ëÇÑ¹Î±¹¼­¿ï°­³²";
+		// ê¸¸ì´ì— ì œí•œ ì—†ìŒ
+		// ë³€ìˆ˜ëª…ì€ ì†Œë¬¸ìžë¡œ ì‹œìž‘
+		// ë‹¨ì–´ì™€ ë‹¨ì–´ê°€ í•©ì³ì§„ í•©ì„±ì–´ì¸ ê²½ìš° í•©ì³ì§€ëŠ” ë’¤ ë‹¨ì–´ì˜ ì²«ê¸€ìžëŠ” ëŒ€ë¬¸ìžë¡œ ë‚˜ë¨¸ì§€ëŠ” ì†Œë¬¸ìžë¡œ í‘œì‹œ - ê´€ë¡€
+		// -> ì¹´ë©œ í‘œê¸°ë²•ì´ë¼ê³  í•¨
+		String myCountryNameAndMycityNameAndMydongis = "ëŒ€í•œë¯¼êµ­ì„œìš¸ê°•ë‚¨";
 		
 		
-		// º¯¼ö ¼±¾ð
-		// Å¸ÀÔ º¯¼ö¸í(½Äº°ÀÚ) = °ª ;
-		// int true = "Âü"; - true/false´Â ½Äº°ÀÚ·Î »ç¿ë ºÒ°¡
-		// boolean false = "°ÅÁþ";
+		// ë³€ìˆ˜ ì„ ì–¸
+		// íƒ€ìž… ë³€ìˆ˜ëª…(ì‹ë³„ìž) = ê°’ ;
+		// int true = "ì°¸"; - true/falseëŠ” ì‹ë³„ìžë¡œ ì‚¬ìš© ë¶ˆê°€
+		// boolean false = "ê±°ì§“";
 		
-		// String null = "¾Æ¹«°Íµµ ¾ø´Ù"; - nullµµ ½Äº°ÀÚ·Î »ç¿ë ºÒ°¡
+		// String null = "ì•„ë¬´ê²ƒë„ ì—†ë‹¤"; - nullë„ ì‹ë³„ìžë¡œ ì‚¬ìš© ë¶ˆê°€
 		
-		// º¯¼ö(½Äº°ÀÚ)´Â ´ë¼Ò¹®ÀÚ¸¦ ±¸ºÐÇÔ. Test¿Í test´Â ÀüÇô ´Ù¸¥ º¯¼öÀÓ.
+		// ë³€ìˆ˜(ì‹ë³„ìž)ëŠ” ëŒ€ì†Œë¬¸ìžë¥¼ êµ¬ë¶„í•¨. Testì™€ testëŠ” ì „í˜€ ë‹¤ë¥¸ ë³€ìˆ˜ìž„.
 		int Test = 10;
 		int test = 20;
 		
-		//¿¹¾à¾î
-		// int for = 10; // (ÄÄÇ»ÅÍ) 1100110 1101111 1110010, (½ÊÁø¼ö º¯È¯ °ª) 102 111 114
-		// »ç¿ë°¡´É
-		int FOR = 20; //¾Æ½ºÅ° ¹®ÀÚÇ¥ FOR = (ÄÄÇ»ÅÍ)1000110 1001111 1010010, (½ÊÁø¼öº¯È¯ °ª)70  79  82
+		//ì˜ˆì•½ì–´
+		// int for = 10; // (ì»´í“¨í„°) 1100110 1101111 1110010, (ì‹­ì§„ìˆ˜ ë³€í™˜ ê°’) 102 111 114
+		// ì‚¬ìš©ê°€ëŠ¥
+		int FOR = 20; //ì•„ìŠ¤í‚¤ ë¬¸ìží‘œ FOR = (ì»´í“¨í„°)1000110 1001111 1010010, (ì‹­ì§„ìˆ˜ë³€í™˜ ê°’)70  79  82
 		
-
 	}
 
 }

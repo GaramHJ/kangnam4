@@ -4,14 +4,13 @@ public class EscapeExam {
 
 	public static void main(String[] args) {
 		
-		//escape - ¿ø·¡¹®ÀÚ
+		//escape - ì›ë˜ë¬¸ì
 		
-		String message = "hello\n my\t name is \"È«±æµ¿\", \n my favorite \'toys\', µğ·ºÅä¸® c:\\temp";
+		String message = "hello\n my\t name is \"í™ê¸¸ë™\", \n my favorite \'toys\', ë””ë ‰í† ë¦¬ c:\\temp";
 		System.out.println(message);
 		
-		String message2 = "hello n my t name is \"È«±æµ¿\", n my favorite 'toys', µğ·ºÅä¸® c:\temp";
+		String message2 = "hello n my t name is \"í™ê¸¸ë™\", n my favorite 'toys', ë””ë ‰í† ë¦¬ c:\temp";
 		System.out.println(message2);
-
 	}
 
 }

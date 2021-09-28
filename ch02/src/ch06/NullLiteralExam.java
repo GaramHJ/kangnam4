@@ -4,19 +4,20 @@ public class NullLiteralExam {
 
 	public static void main(String[] args) {
 		
-		// ±âº»Å¸ÀÔ¿¡´Â null ¸®ÅÍ·²À» »ç¿ë ºÒ°¡
+		// ê¸°ë³¸íƒ€ì…ì—ëŠ” null ë¦¬í„°ëŸ´ì„ ì‚¬ìš© ë¶ˆê°€
 		//int n = null;
 		int n;
 		n=10;
 		System.out.println(n);
 		
-		//ÂüÁ¶(°´Ã¼)Å¸ÀÔ¿¡´Â ÃÊ±âÈ­ Á¶°ÇÀ¸·Î »ç¿ë
+		//ì°¸ì¡°(ê°ì²´)íƒ€ì…ì—ëŠ” ì´ˆê¸°í™” ì¡°ê±´ìœ¼ë¡œ ì‚¬ìš©
 		String str = null;
 		System.out.println(str);
 		
 		
 		str = "hello";
 		System.out.println(str);
+		
 		
 
 	}

@@ -4,7 +4,7 @@ public class ByteOverflowExam {
 
 	public static void main(String[] args) {
 		
-		//byteÀÇ Ç¥Çö¹üÀ§´Â -128~127 »çÀÌ¸¦ »çÀÌÅ¬¸µÇÔ.
+		//byteì˜ í‘œí˜„ë²”ìœ„ëŠ” -128~127 ì‚¬ì´ë¥¼ ì‚¬ì´í´ë§í•¨.
 		for(int i=-128; i<500;i++) {
 			System.out.println(i+":"+(byte)i);
 		}

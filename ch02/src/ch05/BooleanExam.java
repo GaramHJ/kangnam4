@@ -3,28 +3,27 @@ package ch05;
 public class BooleanExam {
 
 	public static void main(String[] args) {
-		// Âü/°ÅÁşÀÇ °ªÀ» °¡Áö´Â booleanÅ¸ÀÔ ¸®ÅÍ·²
+		// ì°¸/ê±°ì§“ì˜ ê°’ì„ ê°€ì§€ëŠ” booleaníƒ€ì… ë¦¬í„°ëŸ´
 		
-		boolean b = true; //ÃÊ±â°ª true ³ª false
-		boolean c = 10 > 0; //¿¬»êÀÇ °á°ú true/false°ª
+		boolean b = true; //ì´ˆê¸°ê°’ true ë‚˜ false
+		boolean c = 10 > 0; //ì—°ì‚°ì˜ ê²°ê³¼ true/falseê°’
 		
-		// ´ëÀÔ ¿¬»êÀÚ = À» ±âÁØÀ¸·Î ¿ŞÂÊÀº boolean ¿À¸¥ÂÊÀº int Çüº¯È¯ ºÒ°¡
+		// ëŒ€ì… ì—°ì‚°ì = ì„ ê¸°ì¤€ìœ¼ë¡œ ì™¼ìª½ì€ boolean ì˜¤ë¥¸ìª½ì€ int í˜•ë³€í™˜ ë¶ˆê°€
 		// boolean d = 1;
 		
-		// booleanÅ¸ÀÔÀÇ ¸®ÅÍ·²Àº ¹İº¹¹®ÀÇ Á¾·á Á¶°Ç¿¡ »ç¿ëµÊ.
+		// booleaníƒ€ì…ì˜ ë¦¬í„°ëŸ´ì€ ë°˜ë³µë¬¸ì˜ ì¢…ë£Œ ì¡°ê±´ì— ì‚¬ìš©ë¨.
 		int i = 1;
 		while(b) {
 			System.out.println("hello");
 			i++; // i = i+1;
 			if(i==10) b=false;
 		}
-		System.out.println("Á¾·á");
+		System.out.println("ì¢…ë£Œ");
 		
-		// ÇöÀç b°ªÀÌ false ÀÌ¹Ç·Î ¾Æ·¡ ºí·°Àº ½ÇÇàµÇÁö ¾ÊÀ½.
+		// í˜„ì¬ bê°’ì´ false ì´ë¯€ë¡œ ì•„ë˜ ë¸”ëŸ­ì€ ì‹¤í–‰ë˜ì§€ ì•ŠìŒ.
 		if(b) {
 			System.out.println("hello");
 		}
-
 	}
 
 }

@@ -4,16 +4,15 @@ public class DataTypeScope {
 
 	public static void main(String[] args) {
 		
-		//WrapperÅ¬·¡½º - ±âº»Å¸ÀÔÀ» Æ¯Á¤¿ëµµ(°ª Ãâ·Â, º¯°æ)·Î ¸¸µç Å¬·¡½º
-		System.out.println(Integer.MIN_VALUE+"<=int¹üÀ§<="+Integer.MAX_VALUE);
-		System.out.println(Long.MIN_VALUE+"<=long¹üÀ§<="+Long.MAX_VALUE);
-		System.out.println(Byte.MIN_VALUE+"<=byte¹üÀ§<="+Byte.MAX_VALUE);
-		System.out.println(Short.MIN_VALUE+"<=short¹üÀ§<="+Short.MAX_VALUE);
+		//Wrapperí´ëž˜ìŠ¤ - ê¸°ë³¸íƒ€ìž…ì„ íŠ¹ì •ìš©ë„(ê°’ ì¶œë ¥, ë³€ê²½)ë¡œ ë§Œë“  í´ëž˜ìŠ¤
+		System.out.println(Integer.MIN_VALUE+"<=intë²”ìœ„<="+Integer.MAX_VALUE);
+		System.out.println(Long.MIN_VALUE+"<=longë²”ìœ„<="+Long.MAX_VALUE);
+		System.out.println(Byte.MIN_VALUE+"<=byteë²”ìœ„<="+Byte.MAX_VALUE);
+		System.out.println(Short.MIN_VALUE+"<=shortë²”ìœ„<="+Short.MAX_VALUE);
 		
 		
-		System.out.println(Float.MIN_VALUE+"<=float¹üÀ§<="+Float.MAX_VALUE);
-		System.out.println(Double.MIN_VALUE+"<=double¹üÀ§<="+Double.MAX_VALUE);
-	
+		System.out.println(Float.MIN_VALUE+"<=floatë²”ìœ„<="+Float.MAX_VALUE);
+		System.out.println(Double.MIN_VALUE+"<=doubleë²”ìœ„<="+Double.MAX_VALUE);
 
 	}
 

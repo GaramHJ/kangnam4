@@ -5,17 +5,17 @@ public class TypeExam2 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		 
-		 int x = 10; //Á¤¼ö
-		 double y = 15.9; //½Ç¼ö
-		 //double Å¸ÀÔÀÇ º¯¼ö y¸¦ °­Á¦·Î intÅ¸ÀÔÀ¸·Î º¯È¯
-		 // (Å¸ÀÔ)º¯¼ö
+		 int x = 10; //ì •ìˆ˜
+		 double y = 15.9; //ì‹¤ìˆ˜
+		 //double íƒ€ìž…ì˜ ë³€ìˆ˜ yë¥¼ ê°•ì œë¡œ intíƒ€ìž…ìœ¼ë¡œ ë³€í™˜
+		 // (íƒ€ìž…)ë³€ìˆ˜
 		 // double -> int
-		 // Çüº¯È¯ -> casting
+		 // í˜•ë³€í™˜ -> casting
 		 
 		 int result = x + (int)y;
 		 
-		 System.out.println(x+y);//½Ç¼ö
-		 System.out.println(result); //Á¤¼ö
+		 System.out.println(x+y);//ì‹¤ìˆ˜
+		 System.out.println(result); //ì •ìˆ˜
 
 	}
 

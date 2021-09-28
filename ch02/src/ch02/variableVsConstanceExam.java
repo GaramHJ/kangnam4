@@ -13,23 +13,23 @@ public class variableVsConstanceExam {
 		
 		System.out.println(x+y);
 		
-		// »ó¼ö ¼±¾ð
-		// final Å¸ÀÔ º¯¼ö¸í = °ª;
-		// »ó¼ö´Â ÀÏ¹ÝÀûÀ¸·Î ´ë¹®ÀÚ·Î Ç¥½ÃÇÔ.(º¯¼ö¿Í ±¸ºÐ)
+		// ìƒìˆ˜ ì„ ì–¸
+		// final íƒ€ìž… ë³€ìˆ˜ëª… = ê°’;
+		// ìƒìˆ˜ëŠ” ì¼ë°˜ì ìœ¼ë¡œ ëŒ€ë¬¸ìžë¡œ í‘œì‹œí•¨.(ë³€ìˆ˜ì™€ êµ¬ë¶„)
 		final double PI = 3.141592;
 		
-		// ¹ÝÁö¸§ r=5 ÀÎ ¿øÀÇ ³ÐÀÌ
+		// ë°˜ì§€ë¦„ r=5 ì¸ ì›ì˜ ë„“ì´
 		// PI*r*r
-		// ½Ç¼öÅ¸ÀÔ º¯¼ö¸¦ ¼±¾ðÇÏ°í ½Ç¼ö º¯¼ö PIÀÇ °ª°ú Á¤¼ö 5¸¦ Á¦°öÇÑ °á°ú°ªÀ» ÀúÀå
+		// ì‹¤ìˆ˜íƒ€ìž… ë³€ìˆ˜ë¥¼ ì„ ì–¸í•˜ê³  ì‹¤ìˆ˜ ë³€ìˆ˜ PIì˜ ê°’ê³¼ ì •ìˆ˜ 5ë¥¼ ì œê³±í•œ ê²°ê³¼ê°’ì„ ì €ìž¥
 		
 		double area = PI*5*5; // 3.141592 * 5.0 * 5.0
 		
-		System.out.println(area); //½Ç¼ö°ªÀ¸·Î Ãâ·Â
+		System.out.println(area); //ì‹¤ìˆ˜ê°’ìœ¼ë¡œ ì¶œë ¥
 		
-		// »ó¼ö·Î ¼±¾ðµÈ º¯¼öÀÇ °ªÀº ÃÊ±âÈ­ ÈÄ º¯°æ½Ã ¿À·ù¹ß»ý.
+		// ìƒìˆ˜ë¡œ ì„ ì–¸ëœ ë³€ìˆ˜ì˜ ê°’ì€ ì´ˆê¸°í™” í›„ ë³€ê²½ì‹œ ì˜¤ë¥˜ë°œìƒ.
 		// PI = 3.14;
 		area = PI*5*5;
-		// Ãâ·Â
+		// ì¶œë ¥
 		System.out.println(area);
 		
 		

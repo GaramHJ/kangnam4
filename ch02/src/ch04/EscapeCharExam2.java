@@ -4,9 +4,8 @@ public class EscapeCharExam2 {
 
 	public static void main(String[] args) {
 		
-		String message = "\"¾È³çÇÏ¼¼¿ä\"\n Àú´Â \'¿ëÀÎ\'¿¡¼­ ¿Â\t \"±æµ¿\"ÀÔ´Ï´Ù.\n C:\\temp\\javaworkspace\\hello.java ";
+		String message = "\"ì•ˆë…•í•˜ì„¸ìš”\"\n ì €ëŠ” \'ìš©ì¸\'ì—ì„œ ì˜¨\t \"ê¸¸ë™\"ì…ë‹ˆë‹¤.\n C:\\temp\\javaworkspace\\hello.java ";
 		System.out.println(message);
-
 	}
 
 }

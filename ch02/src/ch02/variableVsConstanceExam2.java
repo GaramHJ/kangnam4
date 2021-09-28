@@ -4,19 +4,19 @@ public class variableVsConstanceExam2 {
 
 	public static void main(String[] args) {
 
-		// º¯¼öÀÇ ¼±¾ð
-		// Å¸ÀÔ º¯¼ö¸í = °ª;
+		// ë³€ìˆ˜ì˜ ì„ ì–¸
+		// íƒ€ìž… ë³€ìˆ˜ëª… = ê°’;
 		int x = 10;
 		
-		// º¯¼öÀÇ ¼±¾ð
-		// Å¸ÀÔ º¯¼ö¸í;
+		// ë³€ìˆ˜ì˜ ì„ ì–¸
+		// íƒ€ìž… ë³€ìˆ˜ëª…;
 		int y;
 		
-		// ¼±¾ðµÈ º¯¼öÀÇ °ª ÃÊ±âÈ­
-		// º¯¼ö¸í = °ª;
+		// ì„ ì–¸ëœ ë³€ìˆ˜ì˜ ê°’ ì´ˆê¸°í™”
+		// ë³€ìˆ˜ëª… = ê°’;
 		y = 20;
 		
-		// º¯¼ö x¿¡ ÀúÀåµÈ ÃÊ±â°ªÀ» Á¤¼ö 20À¸·Î º¯°æÇÏ¿© ÀúÀå
+		// ë³€ìˆ˜ xì— ì €ìž¥ëœ ì´ˆê¸°ê°’ì„ ì •ìˆ˜ 20ìœ¼ë¡œ ë³€ê²½í•˜ì—¬ ì €ìž¥
 		x=20;
 		
 		System.out.println(x+y);

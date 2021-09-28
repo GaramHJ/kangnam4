@@ -4,10 +4,10 @@ public class StringLoteralExam2 {
 
 	public static void main(String[] args) {
 		
-		//String Å¸ÀÔ º¯¼ö¸¦ ¼±¾ğÇÏ°í String ¸®ÅÍ·²À» ´ëÀÔ
-		String str = "Good"; //³»ºÎÀûÀ¸·Î ¾Æ·¡¿Í °°Àº ¹æ¹ıÀ¸·Î °´Ã¼¸¦ »ı¼ºÇÔ.
+		//String íƒ€ì… ë³€ìˆ˜ë¥¼ ì„ ì–¸í•˜ê³  String ë¦¬í„°ëŸ´ì„ ëŒ€ì…
+		String str = "Good"; //ë‚´ë¶€ì ìœ¼ë¡œ ì•„ë˜ì™€ ê°™ì€ ë°©ë²•ìœ¼ë¡œ ê°ì²´ë¥¼ ìƒì„±í•¨.
 		
-		//String Å¸ÀÔ º¯¼ö¸¦ ¼±¾ğÇÏ°í StringÀÌ¶ó´Â °´Ã¼¸¦ »ı¼ºÇÏ¿© ´ëÀÔ
+		//String íƒ€ì… ë³€ìˆ˜ë¥¼ ì„ ì–¸í•˜ê³  Stringì´ë¼ëŠ” ê°ì²´ë¥¼ ìƒì„±í•˜ì—¬ ëŒ€ì…
 		String str2 = new String("Good"); 
 		
 		System.out.println(str);

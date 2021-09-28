@@ -14,20 +14,19 @@ public class Exam33 {
 		double hh = h1 * h1;
 		
 		double mess1 = (ST1*w1) - (ST2*(ww/hh));
-		System.out.println("Á¦Áö¹æ·®:"+mess1);
+		System.out.println("ì œì§€ë°©ëŸ‰:"+mess1);
 		
 		double BMI1 = w1 - mess1;
-		System.out.println("Ã¼Áö¹æ·®:"+BMI1);
+		System.out.println("ì²´ì§€ë°©ëŸ‰:"+BMI1);
 		
 		double mess2 = (mess1*100)/w1;
-		System.out.println("Á¦Áö¹æ·ü:"+mess2);
+		System.out.println("ì œì§€ë°©ë¥ :"+mess2);
 		
 		double BMI2 = 100-mess2;
 		double result2 = (BMI1*100)/w1;
 		
-		System.out.println("Ã¼Áö¹æ·ü1:"+BMI2);
-		System.out.println("Ã¼Áö¹æ·ü2:"+result2);
-		
+		System.out.println("ì²´ì§€ë°©ë¥ 1:"+BMI2);
+		System.out.println("ì²´ì§€ë°©ë¥ 2:"+result2);
 		
 		
 

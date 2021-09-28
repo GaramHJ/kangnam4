@@ -4,20 +4,20 @@ public class LiteralCharVsStringExam {
 
 	public static void main(String[] args) {
 		
-		// ¹®ÀÚÅ¸ÀÔ º¯¼ö´Â ¹®ÀÚ ÇÏ³ª¸¦ ÀúÀåÇÏ´Â º¯¼ö
-		// ' ' »çÀÌ¿¡ °ø¹éÀÌ ¾øÀ¸¸é ¿À·ù ¹ß»ý
+		// ë¬¸ìžíƒ€ìž… ë³€ìˆ˜ëŠ” ë¬¸ìž í•˜ë‚˜ë¥¼ ì €ìž¥í•˜ëŠ” ë³€ìˆ˜
+		// ' ' ì‚¬ì´ì— ê³µë°±ì´ ì—†ìœ¼ë©´ ì˜¤ë¥˜ ë°œìƒ
 		//char c1 = '';'
-		char c1 = ' '; //¸®ÅÍ·² ¼±¾ð ½Ã °ø¹é ÀÖÀ½.
+		char c1 = ' '; //ë¦¬í„°ëŸ´ ì„ ì–¸ ì‹œ ê³µë°± ìžˆìŒ.
 		
 		
-		// ¹®ÀÚ¿­ Å¸ÀÔº¯¼ö´Â " " »çÀÌ¿¡ °ø¹éÀÌ ¾ø¾îµµ Á¤»ó.
+		// ë¬¸ìžì—´ íƒ€ìž…ë³€ìˆ˜ëŠ” " " ì‚¬ì´ì— ê³µë°±ì´ ì—†ì–´ë„ ì •ìƒ.
 		String s1 = "";
 		
-		// ¿À·ù \´ÙÀ½ ¹®ÀÚ´Â Æ¯¼ö¿ëµµÀÇ ¹®ÀÚ·Î º¯È¯
-		//System.out.println("\"); -> \È¥ÀÚ »ç¿ëÇÒ ¼ö ¾øÀ½.
+		// ì˜¤ë¥˜ \ë‹¤ìŒ ë¬¸ìžëŠ” íŠ¹ìˆ˜ìš©ë„ì˜ ë¬¸ìžë¡œ ë³€í™˜
+		//System.out.println("\"); -> \í˜¼ìž ì‚¬ìš©í•  ìˆ˜ ì—†ìŒ.
 		
-		// \+u´Â À¯´ÏÄÚµå¶ó´Â ÀÇ¹Ì¸¦ Ç¥½ÃÇÏ´Â ±â´ÉÀ¸·Î »ç¿ëµÊ.
-		System.out.println("\2u"); //¼ýÀÚ2 Á¦¿ÜÇÏ°í º¼ °Í
+		// \+uëŠ” ìœ ë‹ˆì½”ë“œë¼ëŠ” ì˜ë¯¸ë¥¼ í‘œì‹œí•˜ëŠ” ê¸°ëŠ¥ìœ¼ë¡œ ì‚¬ìš©ë¨.
+		System.out.println("\2u"); //ìˆ«ìž2 ì œì™¸í•˜ê³  ë³¼ ê²ƒ
 		System.out.println("u");
 
 	}

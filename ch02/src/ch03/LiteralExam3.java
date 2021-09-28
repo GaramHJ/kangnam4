@@ -1,14 +1,14 @@
 package ch03;
 
-// ¸®ÅÍ·²Àº Å¸ÀÔÀ» °¡Áø´Ù - Ç¥½ÃµÇ´Â Çü½Ä¿¡ µû¶ó ÄÄÇ»ÅÍ(jvm) Å¸ÀÔÀ» ÀÎ½ÄÇÔ
+// ï¿½ï¿½ï¿½Í·ï¿½ï¿½ï¿½ Å¸ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ - Ç¥ï¿½ÃµÇ´ï¿½ ï¿½ï¿½ï¿½Ä¿ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ç»ï¿½ï¿½(jvm) Å¸ï¿½ï¿½ï¿½ï¿½ ï¿½Î½ï¿½ï¿½ï¿½
 public class LiteralExam3 {
 
 	public static void main(String[] args) {
-		// ½Ç¼öÅ¸ÀÔ º¯¼ö¸¦ ¼±¾ðÇÏ°í ½Ç¼ö ¸®ÅÍ·² ´ëÀÔ
+		// ì‹¤ìˆ˜íƒ€ìž… ë³€ìˆ˜ë¥¼ ì„ ì–¸í•˜ê³  ì‹¤ìˆ˜ ë¦¬í„°ëŸ´ ëŒ€ìž…
 		double d1 = 12.;
 		double d2 = 12.0;
 		double d3 = 0.1234;
-		double d4 = 1234e-4; //e´Â 10À» ÀÇ¹Ì
+		double d4 = 1234e-4; //eëŠ” 10ì„ ì˜ë¯¸
 		double d5 = 1234E-4; // 1234*10^-4
 		double d6 = 1234e2; // 1234*10^2
 		
@@ -19,20 +19,20 @@ public class LiteralExam3 {
 		System.out.println(d5);
 		System.out.println(d6);
 		
-		//½Ç¼ö¸®ÅÍ·² f´Â 32ºñÆ® ¹üÀ§, ½Ç¼ö¸®ÅÍ·² d´Â 2¹èÁ¤µµ 64ºñÆ®ÀÇ ¹üÀ§
+		//ì‹¤ìˆ˜ë¦¬í„°ëŸ´ fëŠ” 32ë¹„íŠ¸ ë²”ìœ„, ì‹¤ìˆ˜ë¦¬í„°ëŸ´ dëŠ” 2ë°°ì •ë„ 64ë¹„íŠ¸ì˜ ë²”ìœ„
 		float f = 0.1234f;
 		double w = .1234d;
 		
-		// ´ëÀÔ¿¬»êÀÚ =À» ±âÁØÀ¸·Î
-		// ¿ÞÂÊÀº 32ºñÆ®¸¦ ÀúÀåÇÒ ¼ö ÀÖ´Â ¹üÀ§ÀÇ °ø°£,
-		// ¿À¸¥ÂÊÀº 64ºñÆ® ±æÀÌ¸¦ °¡Áø ¸®ÅÍ·²
-		// ÀúÀåºÒ°¡
+		// ëŒ€ìž…ì—°ì‚°ìž =ì„ ê¸°ì¤€ìœ¼ë¡œ
+		// ì™¼ìª½ì€ 32ë¹„íŠ¸ë¥¼ ì €ìž¥í•  ìˆ˜ ìžˆëŠ” ë²”ìœ„ì˜ ê³µê°„,
+		// ì˜¤ë¥¸ìª½ì€ 64ë¹„íŠ¸ ê¸¸ì´ë¥¼ ê°€ì§„ ë¦¬í„°ëŸ´
+		// ì €ìž¥ë¶ˆê°€
 		// float f2 = .1234d;
 		
 		double w2 = 0.1234f;
 		
-		// ½Ç¼öÅ¸ÀÔÀÇ ¸®ÅÍ·²Àº ¼ýÀÚ°ª µÚ¿¡ f³ª d Ç¥½Ã¸¦ ÇÏÁö ¾ÊÀ¸¸é
-		// default·Î d(double)·Î ÀÎ½ÄÇÔ.
+		// ì‹¤ìˆ˜íƒ€ìž…ì˜ ë¦¬í„°ëŸ´ì€ ìˆ«ìžê°’ ë’¤ì— fë‚˜ d í‘œì‹œë¥¼ í•˜ì§€ ì•Šìœ¼ë©´
+		// defaultë¡œ d(double)ë¡œ ì¸ì‹í•¨.
 		// float f3 = .1234; 
 	}
 

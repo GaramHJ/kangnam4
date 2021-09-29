@@ -1,20 +1,20 @@
 package ch03_Array;
 
 public class A {
-	//Å¸ÀÔ[]º¯¼ö¸í;
+	//íƒ€ì…[]ë³€ìˆ˜ëª…;
 	//String[]args
-	//main()¸Ş¼ÒµåÀÇ ¸Å°³º¯¼öºÎºĞ()¿¡ µé¾î°¡´Â ¹è¿­String[]args´Â
-	//±æÀÌ°¡ Á¤ÇØÁ®ÀÖÁö ¾ÊÀº ¹è¿­.
-	//ÀÚ¹ÙÇÁ·Î±×·¥ ½ÇÇà½Ã argument·Î ³ª¿­ÇØ¼­ Àü´ŞÇÔ.
-	//argumentÀÇ °³¼ö¸¸Å­ String[]¹è¿­ »ı¼ºµÇ¾î Àü´Ş.
-	//java A hello world my name is ±æµ¿
-	// => String[] args = {hello,world,my,name,is,±æµ¿};
-	public static void main(String[] args) {//argument,ÀÎÀÚ,¸Å°³º¯¼ö ºÎºĞ
-		//(String[] args) : ¿ÜºÎ·ÎºÎÅÍ °ªÀ» ¹Ş´Â ¿µ¿ª(°ü¹®)
+	//main()ë©”ì†Œë“œì˜ ë§¤ê°œë³€ìˆ˜ë¶€ë¶„()ì— ë“¤ì–´ê°€ëŠ” ë°°ì—´String[]argsëŠ”
+	//ê¸¸ì´ê°€ ì •í•´ì ¸ìˆì§€ ì•Šì€ ë°°ì—´.
+	//ìë°”í”„ë¡œê·¸ë¨ ì‹¤í–‰ì‹œ argumentë¡œ ë‚˜ì—´í•´ì„œ ì „ë‹¬í•¨.
+	//argumentì˜ ê°œìˆ˜ë§Œí¼ String[]ë°°ì—´ ìƒì„±ë˜ì–´ ì „ë‹¬.
+	//java A hello world my name is ê¸¸ë™
+	// => String[] args = {hello,world,my,name,is,ê¸¸ë™};
+	public static void main(String[] args) {//argument,ì¸ì,ë§¤ê°œë³€ìˆ˜ ë¶€ë¶„
+		//(String[] args) : ì™¸ë¶€ë¡œë¶€í„° ê°’ì„ ë°›ëŠ” ì˜ì—­(ê´€ë¬¸)
 		
-		System.out.println("¹è¿­ÀÇ ±æÀÌ:"+args.length);
-		System.out.println("¹è¿­ÀÇ Ã¹¹øÂ° °ª:"+args[0]);
-		System.out.println("¹è¿­ÀÇ µÎ¹øÂ° °ª:"+args[1]);
+		System.out.println("ë°°ì—´ì˜ ê¸¸ì´:"+args.length);
+		System.out.println("ë°°ì—´ì˜ ì²«ë²ˆì§¸ ê°’:"+args[0]);
+		System.out.println("ë°°ì—´ì˜ ë‘ë²ˆì§¸ ê°’:"+args[1]);
 		
 		for(int i=0; i<args.length;i++)
 			System.out.println(args[i]);
